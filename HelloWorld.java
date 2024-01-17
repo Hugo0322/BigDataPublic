@@ -12,5 +12,12 @@ public class HelloWorld {
         int totalSum = first + second;
         System.out.println("La suma de ambos números es: " + totalSum);
 
+        System.out.println("Introduzca un número");
+        first = s.nextInt();
+        System.out.println("Introduzca otro número para restarlos");
+        second = s.nextInt();
+        int totalMin = first - second;
+        System.out.println("La suma de ambos números es: " + totalSum);
+
     }
 }
